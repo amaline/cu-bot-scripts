@@ -1,0 +1,40 @@
+{
+  "name": "cu-bot-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for hubot in support of internal training",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaline/cu-bot-scripts.git"
+  },
+  "keywords": [
+    "hubot",
+    "slack",
+    "scripts"
+  ],
+  "author": "Al Maline",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/amaline/cu-bot-scripts/issues"
+  },
+  "homepage": "https://github.com/amaline/cu-bot-scripts#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "coffee-script": "~1.7.1",
+    "gulp": "~3.8.11",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^1.1.1",
+    "gulp-plumber": "^0.6.6",
+    "hubot": "^2.11.4",
+    "hubot-help": "^0.1.1",
+    "hubot-mock-adapter": "~1.0.0",
+    "jshint": "^2.7.0",
+    "jshint-stylish": "^2.0.0",
+    "log": "1.4.0",
+    "nock": "^0.50.0"
+  }
+}
